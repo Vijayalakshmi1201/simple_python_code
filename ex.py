@@ -3,7 +3,7 @@
 def factorial_recursive(n):
     """Calculate factorial using recursion."""
     if n == 0 or n == 1:
-        return 1
+        eturn 1
     return n * factorial_recursive(n - 1)
 
 def factorial_iterative(n):
